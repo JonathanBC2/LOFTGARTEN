@@ -1,0 +1,56 @@
+LOFTGARTEN
+
+
+#----TOP BAR----#
+
+<ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+Playa de las Catedrales,España
+
+<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+Daily : 8.00 am to 10.00 pm
+
+<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+loftgarten@reality.com
+
+
+#----HEADER----#
+
+alt = LOFTGARTEN - Home
+
+aria-label = close menu
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Projects
+About
+Contact
+
+Visit Us
+
+Playa de las Catedrales,
+España
+
+Open: 9.30 am - 2.30pm
+
+loftgarten@reality.com
+
+Booking Request
++88-123-123456
+
+Find A Table
+
+aria-label = open menu
+
+#----HERO----#
+
+REALITY,ELEVATED
+
+LOFTGARTEN
+
+LOFTGARTEN
+
+We prtner with the desing community, brands,
+and ambitiuos teams to push today's boundaries
+to design the possibilities of tomorrow trough
+spatial ideation, motion desing, and 3D imagery.
+
+<i class="ri-corner-right-down-line"></i>
