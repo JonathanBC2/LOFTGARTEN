@@ -312,7 +312,7 @@ body.nav-active {overflow: hidden;}
 
 .rectangulo::before {
   content: "";
-  position: relative;
+  position: absolute;
   height: 300px;
   width: 300px;
   background-image: conic-gradient(red 20deg, transparent 120deg);
@@ -337,7 +337,7 @@ body.nav-active {overflow: hidden;}
 }
 
 .inicio{
-  position: absolute;
+  position: relative;
   margin-top: -150px;
 }
 
