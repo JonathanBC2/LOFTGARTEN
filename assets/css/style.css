@@ -333,7 +333,7 @@ body.nav-active {overflow: hidden;}
   position: absolute;
   height: 150px;
   width: 100px;
-  background-color: transparent;
+  background-color: black;
 }
 
 .inicio{
