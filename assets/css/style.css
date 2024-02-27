@@ -337,6 +337,7 @@ body.nav-active {overflow: hidden;}
 }
 
 .inicio{
+  position: absolute;
   margin-top: -150px;
 }
 
