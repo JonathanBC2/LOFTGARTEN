@@ -19,16 +19,22 @@
   /**
    *COLORS
    */
-   --first-color: hsl(14, 98%, 50%);
-   --black-color: hsl(0, 0%, 0%);
-   --black-color-light: hsl(0, 0%, 40%);
-   --white-color: hsl(0, 0%, 95%);
-   --title-color: hsl(0, 0%, 0%);
-   --text-color: hsl(0, 0%, 35%);
-   --text-color-light: hsl(0, 0%, 64%);
-   --body-color: hsl(0, 0%, 87%);
-   --container-color: hsl(0, 0%, 83%);
-
+   --gold-crayola: hsl(38, 61%, 73%);
+   --quick-silver: hsla(0, 0%, 65%, 1);
+   --davys-grey: hsla(30, 3%, 34%, 1);
+   --smoky-black-1: hsla(40, 12%, 5%, 1);
+   --smoky-black-2: hsla(30, 8%, 5%, 1);
+   --smoky-black-3: hsla(0, 3%, 7%, 1);
+   --eerie-black-1: hsla(210, 4%, 9%, 1);
+   --eerie-black-2: hsla(210, 4%, 11%, 1);
+   --eerie-black-3: hsla(180, 2%, 8%, 1);
+   --eerie-black-4: hsla(0, 0%, 13%, 1);
+   --white: hsla(0, 0%, 100%, 1);
+   --white-alpha-20: hsla(0, 0%, 100%, 0.2);
+   --white-alpha-10: hsla(0, 0%, 100%, 0.1);
+   --black: hsla(0, 0%, 0%, 1);
+   --black-alpha-80: hsla(0, 0%, 0%, 0.8);
+   --black-alpha-15: hsla(0, 0%, 0%, 0.15);
    /** 
    *GRADIENT COLOR
    */
@@ -202,6 +208,57 @@ body.nav-active {overflow: hidden;}
  #TYPOGRAPHY
 \*-------------------------------*/
 
+.display-1,
+.headline-1,
+.headline-2,
+.title-1,
+.title-2,
+.title-3,
+.title-4 {
+  color: var(--white);
+  font-family: var(--fontFamily-forum);
+  font-weight: var(--weight-regular);
+  line-height: var(--lineHeight-2);
+}
+
+.display-1 {
+  font-size: var(--fontSize-display-1);
+  line-height: var(--lineHeight-1);
+}
+
+.headline-1 { font-size: var(--fontSize-headline-1);}
+
+.headline-2 {
+  font-size: var(--fontSize-headline-2);
+  line-height: var(--lineHeight-6);
+}
+
+.title-1 { font-size: var(--fontSize-title-1);}
+
+.title-2 { font-size: var(--fontSize-title-2);}
+
+.title-3 { font-size: var(--fontSize-title-3);}
+
+.title-4 { font-size: var(--fontSize-title-4);}
+
+.body-1{
+  font-size: var(--fontSize-body-1);
+  line-height: var(--lineHeight-6);
+}
+
+.body-2{
+  font-size: var(--fontSize-body-2);
+  line-height: var(--lineHeight-4);
+}
+
+.body-3 { font-size: var(--fontSize-body-3);}
+
+.body-4 { font-size: var(--fontSize-body-4);}
+
+.label-1 { font-size: var(--fontSize-label-1);}
+
+.label-2 { font-size: var(--fontSize-label-2);}
+
 
 
 
@@ -221,5 +278,5 @@ body.nav-active {overflow: hidden;}
 
 .preload {
   position: fixed;
-  
+
 }
