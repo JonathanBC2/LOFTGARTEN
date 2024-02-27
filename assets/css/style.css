@@ -302,9 +302,7 @@ body.nav-active {overflow: hidden;}
 .incio {
   width: 100px;
   height: 50px;
-  border-radius: var(--radius-circler);
-  border: 5px solid var(--white);
-  border-block-start-color: var(--smoky-black-3);
+  border-radius: 10%;
   margin-block-end: 45px;
   animation: rotate360 1s linear infinite;
 }
