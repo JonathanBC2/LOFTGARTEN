@@ -316,6 +316,16 @@ body.nav-active {overflow: hidden;}
   height: 300px;
   width: 300px;
   background-image: conic-gradient(red 20deg, transparent 120deg);
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 
