@@ -290,7 +290,7 @@ body.nav-active {overflow: hidden;}
   transition: var(--transition-2);
 }
 
-.preload > * { transition: var(--transition-2); }
+.preload > * { transition: var(--transition-1); }
 
 .preload.loaded > * { opacity: 0; }
 
