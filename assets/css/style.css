@@ -299,7 +299,7 @@ body.nav-active {overflow: hidden;}
   transform: translateY(100%);
 }
 
-.rectangulo {
+.incio {
   width: 100px;
   height: 50px;
   border-radius: var(--radius-circler);
