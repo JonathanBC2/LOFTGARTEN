@@ -282,7 +282,7 @@ body.nav-active {overflow: hidden;}
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: blanchedalmond;
+  background-color: black;
   z-index: 10;
   display: grid;
   place-content: center;
