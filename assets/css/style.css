@@ -299,7 +299,7 @@ body.nav-active {overflow: hidden;}
   transform: translateY(100%);
 }
 
-.incio {
+.rectangulo {
   width: 100px;
   height: 50px;
   position: relative;
@@ -309,7 +309,7 @@ body.nav-active {overflow: hidden;}
   justify-content: center;
 }
 
-.incio::before {
+.rectangulo::before {
   content: "";
   position: absolute;
   height: 300px;
