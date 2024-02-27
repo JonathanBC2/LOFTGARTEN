@@ -303,7 +303,7 @@ body.nav-active {overflow: hidden;}
   width: 110px;
   height: 110px;
   border-radius: var(--radius-circle);
-  border: 3.5 solid var(--white);
+  border: 3.5px solid var(--white);
   border-block-start-color: var(--smoky-black-3);
   margin-block-end: 45px;
   animation: rotate360 1s linear infinite;
