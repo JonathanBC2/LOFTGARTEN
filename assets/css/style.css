@@ -278,5 +278,14 @@ body.nav-active {overflow: hidden;}
 
 .preload {
   position: fixed;
-
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: aliceblue;
+  z-index: 10;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  transition: var(--transition-2);
 }
