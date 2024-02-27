@@ -67,46 +67,53 @@
     ---->
 
     <header class="header" data-header>
-
         <div class="container">
 
             <p class="logo">Reality.elevated</p>
 
-        </div>
+            <nav class="navbar" data-navbar>
 
-        <nav class="navbar" data-navbar>
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
 
-            <button class="close-btn" aria-label="close menu" data-nav-toggler>
-                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                <p class="logo">Reality.elevated</p>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#PROJECTS" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+                            <span class="span">Projects</span> 
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#ABOUT" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+                            <span class="span">About</span> 
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#CONTACT" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+                            <span class="span">Contact</span> 
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <button class="nav-opne-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
             </button>
 
-            <p class="logo">Reality.elevated</p>
+            <div class="overlay" data-nav-toggler data-overlay></div>
 
-            <ul class="navbar-list">
-
-                <li class="navbar-item">
-                    <a href="#PROJECTS" class="navbar-link hover-underline active">
-                        <div class="separator"></div>
-                        <span class="span">Projects</span> 
-                    </a>
-                </li>
-
-                <li class="navbar-item">
-                    <a href="#ABOUT" class="navbar-link hover-underline active">
-                        <div class="separator"></div>
-                        <span class="span">About</span> 
-                    </a>
-                </li>
-
-                <li class="navbar-item">
-                    <a href="#CONTACT" class="navbar-link hover-underline active">
-                        <div class="separator"></div>
-                        <span class="span">Contact</span> 
-                    </a>
-                </li>
-            </ul>
-
-        </nav>
+        </div>  
 
     </header>
 
