@@ -340,6 +340,10 @@ body.nav-active {overflow: hidden;}
   z-index: 2;
 }
 
+.title {
+  z-index: 2;
+}
+
 
 
 
