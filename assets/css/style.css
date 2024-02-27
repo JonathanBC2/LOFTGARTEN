@@ -334,6 +334,7 @@ body.nav-active {overflow: hidden;}
   height: 150px;
   width: 100px;
   background-color: black;
+  box-shadow: inset 16px 14px 20px black ;
 }
 
 .inicio{
