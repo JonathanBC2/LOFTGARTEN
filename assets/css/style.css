@@ -302,6 +302,7 @@ body.nav-active {overflow: hidden;}
 .rectangulo {
   width: 70px;
   height: 120px;
+  margin-top: 100px;
   background-color: aliceblue;
   position: relative;
   overflow: hidden;
@@ -328,8 +329,6 @@ body.nav-active {overflow: hidden;}
   }
 }
 
-.incio {
-margin-top: -120;
-}
+
 
 
