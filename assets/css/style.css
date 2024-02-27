@@ -315,7 +315,7 @@ body.nav-active {overflow: hidden;}
   position: absolute;
   height: 300px;
   width: 300px;
-  background-image: conic-gradient(--white 20deg, transparent 120deg);
+  background-image: conic-gradient(red 20deg, transparent 120deg);
 }
 
 
