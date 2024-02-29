@@ -302,8 +302,8 @@ body.nav-active {overflow: hidden;}
 }
 
 .rectangulo {
-  width: 120px;
-  height: 220px;
+  width: 270px;
+  height: 180px;
   background-color: aliceblue;
   position: relative;
   overflow: hidden;
@@ -333,8 +333,8 @@ body.nav-active {overflow: hidden;}
 .rectangulo::after {
   content: "";
   position: absolute;
-  height: 200px;
-  width: 100px;
+  height: 160px;
+  width: 250px;
   background-color: black;
 }
 
