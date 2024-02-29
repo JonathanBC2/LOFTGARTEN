@@ -302,8 +302,8 @@ body.nav-active {overflow: hidden;}
 }
 
 .rectangulo {
-  width: 220px;
-  height: 320px;
+  width: 120px;
+  height: 220px;
   background-color: aliceblue;
   position: relative;
   overflow: hidden;
