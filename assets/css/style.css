@@ -379,5 +379,24 @@ body.nav-active {overflow: hidden;}
   transition-delay: 250ms;
 }
 
+.header .container {
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-opne-btn {
+  padding: 12px;
+  padding-inline-end: 0;
+}
+
+.nav-opne-btn .line {
+  width: 30px;
+  height: 2px;
+  background-color: var(--white);
+}
+
 
 
