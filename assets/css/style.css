@@ -29,7 +29,7 @@
    --eerie-black-2: rgb(255, 255, 255);
    --eerie-black-3: rgb(0, 0, 0);
    --eerie-black-4: rgb(0, 0, 0);
-   --white: rgb(12, 12, 12);
+   --white: rgb(12, 12, 12); /**color letra **/
    --white-alpha-20: hsla(0, 0%, 100%, 0.2);
    --white-alpha-10: hsla(0, 0%, 100%, 0.1);
    --black: rgb(255, 255, 255);
@@ -342,9 +342,9 @@ body.nav-active {overflow: hidden;}
   z-index: 2;
 }
 
-.text {
+/* .text {
   margin: 10px 50px;
-}
+} */
 
 
 /*-------------------------------*\
@@ -441,5 +441,25 @@ body.nav-active {overflow: hidden;}
 }
 
 
+/*-------------------------------*\
+ #HERO
+\*-------------------------------*/
+
+.hero {
+  background-color: aqua;
+  height: 600px;
+  width: 800px;
+  margin: 0px;
+  text-align: center;
+  color: black;
+  border-bottom: 3px dashed black;
+
+}
+
+.hero-text {
+  margin-top: 0px;
+  font-size: 50px;
+  margin:  100px 200px;
+}
 
 
