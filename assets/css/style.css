@@ -191,7 +191,7 @@ body{
   height: 300vh;
 }
 
-body.loaded {overflow: overlay;}
+body.loaded {overflow-y: overlay;}
 
 body.nav-active {overflow: hidden;}
 
@@ -445,10 +445,17 @@ body.nav-active {overflow: hidden;}
  #HERO
 \*-------------------------------*/
 
+/* .img1 {
+  height: 600px;
+  width: 1880px;
+  margin: 0px;
+  z-index: 1;
+} */
+
 .hero {
   background-color: aqua;
-  height: 600px;
-  width: 800px;
+  height: 485px;
+  max-width: auto;
   margin: 0px;
   text-align: center;
   color: black;
@@ -460,6 +467,15 @@ body.nav-active {overflow: hidden;}
   margin-top: 0px;
   font-size: 50px;
   margin:  100px 200px;
+  
+}
+
+.description {
+  display: block;
+  text-align: center;
+  position: relative;
+  right: 300px;
+  font-size: 15px;
 }
 
 
