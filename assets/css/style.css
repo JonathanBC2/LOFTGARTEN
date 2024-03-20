@@ -191,7 +191,7 @@ body{
   height: 300vh;
 }
 
-body.loaded {overflow-y: overlay;}
+body.loaded {overflow: overlay;}
 
 body.nav-active {overflow: hidden;}
 
@@ -454,7 +454,7 @@ body.nav-active {overflow: hidden;}
 
 .hero {
   background-color: aqua;
-  height: 485px;
+  height:max-content;
   max-width: auto;
   margin: 0px;
   text-align: center;
@@ -465,8 +465,8 @@ body.nav-active {overflow: hidden;}
 
 .hero-text {
   margin-top: 0px;
-  font-size: 50px;
-  margin:  100px 200px;
+  font-size: 120px;
+  margin:  170px 300px;
   
 }
 
@@ -474,8 +474,35 @@ body.nav-active {overflow: hidden;}
   display: block;
   text-align: center;
   position: relative;
-  right: 300px;
+  bottom: 40px;
+  right: 550px;
   font-size: 15px;
+}
+
+.btn {
+  position: relative;
+  top: 120px;
+  z-index: 2;
+}
+
+.circle {
+  background-color: aquamarine;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 80px;
+  left: 740px;
+}
+
+
+/*-------------------------------*\
+ #
+\*-------------------------------*/
+
+.section2 { 
+  background-color: rgb(239, 153, 153);
+  height: max-content;
 }
 
 
