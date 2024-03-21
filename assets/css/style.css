@@ -455,7 +455,7 @@ body.nav-active {overflow: hidden;}
 .hero {
   background-color: aqua;
   height:max-content;
-  max-width: auto;
+  width: 100%;
   margin: 0px;
   text-align: center;
   color: black;
@@ -482,6 +482,7 @@ body.nav-active {overflow: hidden;}
 .btn {
   position: relative;
   top: 120px;
+  scale: 2;
   z-index: 2;
 }
 
@@ -559,9 +560,31 @@ body.nav-active {overflow: hidden;}
 }
 
 .title2 {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  position: relative;
+  left: 100px;
+  top: 40px;
   text-align: center;
   text-align: justify;
+  margin: 80px 680px;
+  margin-block-start: 0px;
+  font-size: 30px;
+}
+
+.section-view {
+  /* background-color: aliceblue; */
+  position: relative;
+  margin: 20px 700px ;
+  left: 70px;
+}
+
+.imag2 {
+  position: relative;
+  margin: 10px;
+  top: -425px;
+  left: 112px;  
+  height: 730px;
+  width: 615px;
 }
 
 
