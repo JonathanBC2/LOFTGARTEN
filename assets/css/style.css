@@ -604,6 +604,138 @@ body.nav-active {overflow: hidden;}
   text-align: center;
   margin-top: 0px;
   font-size: 50px;
-  top: -300px;
+  top: -250px;
   left: 650px;
+}
+
+.jse {
+  display: flex;
+  top: -200px;
+  left: 10px;
+  font-size: 25px;
+  color: black;
+}
+
+.flecha {
+  position: relative;
+  margin: 20px 50px;
+  top: -20px;
+}
+
+.boton2 {
+  position: relative;
+  top: 200px;
+  left: 740px;
+}
+
+.circle2 {
+  background-color: rgb(184, 193, 190);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.btn-secundary {
+  position: relative;
+  color: black;
+  scale: 2;
+  z-index: 2;
+  top: 40px;
+  left: 127px;
+}
+
+
+/*-------------------------------*\
+ #
+\*-------------------------------*/
+
+.home_info {
+  background-image: linear-gradient(rgb(234, 231, 231), white);
+  height: 678px;
+  display: flex;
+}
+
+.gif-2 {
+  position: center;
+  top: 350px;
+  left: 300px;
+}
+
+.info {
+  padding: 10px;
+  margin: 100px 400px;
+  position: relative;
+  left: 200px;
+  text-align: justify;
+}
+
+.title_info {
+  font-size: 30px;
+  margin: 0 0 80px;
+}
+
+
+/*-------------------------------*\
+ #
+\*-------------------------------*/
+
+.cuarto {
+  background-image: url(/assets/images/image4.jpg);
+  min-height: 120vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*-------------------------------*\
+ #
+\*-------------------------------*/
+
+.quinto {
+  background-image: linear-gradient(rgb(234, 231, 231), white);
+  height: 650px;
+  display: flex;
+}
+
+.title_info_2 {
+  padding: 10px;
+  margin: 100px 550px;
+  position: relative;
+  top: -530px;
+  left: 300px;
+  text-align: justify;
+}
+
+.gif-3 {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  top: 50px;
+  left: 100px;
+}
+
+/*-------------------------------*\
+ #
+\*-------------------------------*/
+
+.projects_container {
+  background-image: linear-gradient(rgb(234, 231, 231), white);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.project1 {
+  width: 300px;
+  height: 350px;
+  margin: 0 20px;
 }
