@@ -469,6 +469,7 @@ body.nav-active {overflow: hidden;}
   bottom: 40px;
   right: 550px;
   font-size: 15px;
+  color: rgb(72, 74, 74);
 }
 
 .btn {
@@ -498,12 +499,13 @@ body.nav-active {overflow: hidden;}
 \*-------------------------------*/
 
 .section2 {
-  background: rgb(255, 255, 255)
+  background: rgb(255, 255, 255);
+  height: 400px;
   }
 
 .section-subtitle {
   position: relative;
-  top: 100px;
+  top: 120px;
   left: 150px;
   text-align: center;
   text-align: justify;
@@ -520,7 +522,7 @@ body.nav-active {overflow: hidden;}
   width: 600px;
   position: relative;
   left: 800px;
-  bottom: 50px;
+  bottom: 20px;
 
 }
 
@@ -539,7 +541,7 @@ body.nav-active {overflow: hidden;}
 
 .section3 {
   background-image: linear-gradient(rgb(234, 231, 231), white);
-  height: 710px;
+  height: 732px;
 
   }
 
